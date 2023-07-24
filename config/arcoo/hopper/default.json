@@ -1,0 +1,22 @@
+{"log_dir": "/data/designbench/log/hopper/arcoo", 
+"task": "HopperController-Exact-v0", 
+"random_seed": 2,
+"task_relabel": false,
+"normalize_ys": true,
+"normalize_xs": false,
+"save_model": true,
+"e_train": true,
+"init_m": 0.02,
+"Ld_K": 64,
+"Ld_K_max":64,
+"surrogate_hidden": 2048,
+"surrogate_lr": 0.0003,
+"train_batch": 128,
+"val_size": 0.2,
+"train_epoch": 64,
+"online_solutions_batch": 128,
+"opt_config": {
+    "energy_opt": true,
+    "opt_steps": 200
+}
+}
