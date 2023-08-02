@@ -1,6 +1,6 @@
 # ARCOO
 
-The code for the paper "Degradation-Resistant Offline Optimization via Accumulative Risk Control".
+The implementation for the paper "Degradation-Resistant Offline Optimization via Accumulative Risk Control". The main paper and the appendix are in doc/main.pdf and doc/appendix.pdf respectively.
 
 ## Setup
 Create the running environment with conda `4.10.3` with Python `3.9.0`: 
@@ -89,6 +89,18 @@ Notes for the project structure:
 - The files in the folder `core` are the main components of the algorithms.
 - The files in the folder `config` are the hyperparameter configurations for each task.
 
+
+## Reference
+Lu, H.; Qian, H.; Wu, Y.; Liu, Z.; Zhang, Y.; Zhou, A.; and Yu, Y. "Degradation-Resistant Offline Optimization via Accumulative Risk Control." In Proceedings of the 26th European Conference on Artificial Intelligence (ECAI), 2023.
+
+
+### Bibtex
+@inproceedings{lu2023degradation,
+ author = {Lu, Huakang and Qian, Hong and Wu, Yupeng and Liu, Ziqi and Zhang, Ya-Lin and Zhou, Aimin and Yu, Yang},
+ booktitle = {Proceedings of the 26th European Conference on Artificial Intelligence},
+ title = {Degradation-Resistant Offline Optimization via Accumulative Risk Control},
+ year = {2023}
+}
 
 
 
